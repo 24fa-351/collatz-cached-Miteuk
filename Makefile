@@ -3,5 +3,3 @@ collatz: collatz.c
 
 clean:
 	rm collatz
-
-
