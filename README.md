@@ -35,7 +35,7 @@ All three must be present.
 
 * Determine the smallest cache size for (run spec: N=10000, MIN=1, MAX=500000) that results in an average 30% cache hit over several iterations of this run spec (or multiply N by 5). 
 
-* Do this for both cache types, reporting each in the GSheet with a column indicating cache type.
+* Do this for both cache types reporting each in the GSheet with a column indicating cache type.
 
 EXTRA CREDIT: 75 MORE points - Implement ARC in addition. Run it several times with different cache sizes, and log how the parts (T1, B1, etc.) and the pointers ("^," "!") change for one run. (A nicely formatted line is desired) Run it once without the logging enabled to determine the cache size as above.
 

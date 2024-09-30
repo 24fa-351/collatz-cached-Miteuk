@@ -12,10 +12,11 @@ typedef struct CacheItem{
     int lastUsed;
 } CacheItem;
 
-void initialize_cache(int size);
+void initialize_cache(const char *cache_policy, int size);
 int collatz_steps(int n);
 int collatz_steps_cached(int n);
 void free_cache();
-
+int get_lru_pos();
+int get_mru_pos();
 
 #endif 

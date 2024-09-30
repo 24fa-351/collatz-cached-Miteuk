@@ -3,6 +3,7 @@
         "stdio.h": "c",
         "string.h": "c",
         "collatz.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "time.h": "c"
     }
 }
